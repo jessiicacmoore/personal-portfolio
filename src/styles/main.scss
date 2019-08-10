@@ -113,13 +113,13 @@ header {
     left: 0;
     width: "100%";
     height: "100%";
-    z-index: 99;
   }
 
   .header-wrapper {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 1rem;
+    pointer-events: none;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -175,12 +175,15 @@ header {
           align-self: flex-end;
       font-size: 1.25rem;
       margin: 0;
+      
 
       @media screen and (max-width: 350px) {
         display: none;
       }
 
       li {
+        pointer-events: all;
+        
         & + li i {
           padding-top: 1.5em;
         }
@@ -188,6 +191,8 @@ header {
         i {
           -webkit-transition: $ease;
           transition: $ease;
+          position: relative;
+        z-index: 999;
         }
 
         &:hover i,
