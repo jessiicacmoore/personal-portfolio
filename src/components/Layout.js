@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet'
 import 'normalize.css';
 import "../styles/main.scss";
 
-
 const Layout = ({title, children}) => {
   return (
     <div>
