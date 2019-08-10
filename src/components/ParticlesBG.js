@@ -12,7 +12,7 @@ const ParticlesBG = () => {
   }
 
   return (
-    <div style={style}>
+    <div style={style} className="particles-canvas">
       <Particles />
     </div>
   )
