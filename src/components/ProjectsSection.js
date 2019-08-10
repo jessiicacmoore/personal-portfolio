@@ -25,7 +25,7 @@ const ProjectsSection = () => {
                 portfolio. Users can view, post, find and apply to projects in
                 order to connect with other users. This full stack application was
                 built with a React front end which makes API requests to the
-                Django back end. A collaboration with
+                Django back end. A collaboration with {" "}
                 <a
                   href="https://www.alexyang.ca/"
                   target="_blank"
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
                 >
                   Alex Yang
                 </a>
-                and
+                {" "}and{" "}
                 <a
                   href="https://timkurbanov.ca/"
                   target="_blank"
@@ -50,7 +50,7 @@ const ProjectsSection = () => {
                 rel="noopener noreferrer"
               >
                 <i className="fab fa-github"></i>
-                GitHub
+                {" "}GitHub
               </a>
             </div>
           </li>
@@ -66,7 +66,7 @@ const ProjectsSection = () => {
                 tasked with managing and prioritizing user stories to complete a
                 viable product within a short period of time. This project
                 required agile development and team coding with GitHub. A
-                collaboration with
+                collaboration with{" "}
                 <a
                   href="https://www.alexyang.ca/"
                   target="_blank"
@@ -74,7 +74,7 @@ const ProjectsSection = () => {
                 >
                   Alex Yang
                 </a>
-                and
+                {" "}and{" "}
                 <a
                   href="https://timkurbanov.ca/"
                   target="_blank"
@@ -91,7 +91,7 @@ const ProjectsSection = () => {
                 rel="noopener noreferrer"
               >
                 <i className="fab fa-github"></i>
-                GitHub
+                {" "}GitHub
               </a>
             </div>
           </li>
