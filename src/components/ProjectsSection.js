@@ -96,6 +96,39 @@ const ProjectsSection = () => {
             </div>
           </li>
         </Fade>
+        <Fade bottom>
+          <li className="projects-list-item">
+            <img src="./img/projects-wine.png" alt="" />
+            <div className="project-content-container">
+              <h3>Niagara Wineries</h3>
+              <h4 className="stack">JavaScript / React / Sass / Yelp Fusion Api</h4>
+              <p className="description">
+                A work in projgress - Niagara Wineries is a front-end React app that makes calls to Yelp's Fusion api in order to display the local wineries in Niagara. Users can filter results to specific regions of Niagara such as Niagara-On-The-Lake or Beamsville. After completing the winery details aspect, I plan to incorperate a backend so users can save wineries they would like to visit, or wineries they enjoyed.
+              </p>
+              <p>
+                Check it out live as I work on it!
+              </p>
+              <a
+                className="btn"
+                href="https://niagara-wineries.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe"></i>
+                {" "}Live
+              </a>
+              <a
+                className="btn btn-ghost"
+                href="https://github.com/jessiicacmoore/react-niagara-wineries"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+                {" "}GitHub
+              </a>
+            </div>
+          </li>
+        </Fade>
       </ul>
     </section>
   )

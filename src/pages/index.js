@@ -6,6 +6,7 @@ import SkillsSection from '../components/SkillsSection'
 import ProjectsSection from '../components/ProjectsSection'
 import ContactSection from '../components/ContactSection'
 const index = () => {
+  console.log("hello")
   return (
     <Layout title="Jessica Moore"> 
     <MainHeader/>
