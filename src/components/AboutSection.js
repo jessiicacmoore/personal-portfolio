@@ -15,7 +15,7 @@ const AboutSection = () => {
             <p>
               My name is Jessica, but I'd love it if you'd call me
               <span className="highlight"> Jess</span> - I'm a full stack developer
-              from the Toronto area.
+              from the GTA.
             </p>
             <p>
               I'm passionate about learning new skills, and always on the lookout
