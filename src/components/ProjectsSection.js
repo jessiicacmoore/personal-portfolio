@@ -129,6 +129,36 @@ const ProjectsSection = () => {
             </div>
           </li>
         </Fade>
+        <Fade bottom>
+          <li className="projects-list-item">
+            <img src="./img/projects-latda.png" alt="" />
+            <div className="project-content-container">
+              <h3>Literally Another ToDo App (LATDA)</h3>
+              <h4 className="stack">JavaScript / React / Axios / Sass / Django Rest Framework / JWT Authentication</h4>
+              <p className="description">
+                A simple, minimalist todo app - latda was built with the sole intention of practicing building a full stack web application that required user authentication. A particular challenge I faced was how to handle refreshing the short-lived access token without interrupting the users experience, or ability to post or update todos if they had been inactive for a few minutes.
+              </p>
+              <a
+                className="btn"
+                href="https://latda.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe"></i>
+                {" "}Live
+              </a>
+              <a
+                className="btn btn-ghost"
+                href="https://github.com/jessiicacmoore/fullstack-todo-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+                {" "}GitHub
+              </a>
+            </div>
+          </li>
+        </Fade>
       </ul>
     </section>
   )
